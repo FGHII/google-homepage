@@ -6,6 +6,15 @@
   max-width: 100%;
 }
 
+/* .navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-right {
+  float: right;
+} */
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -16,11 +25,25 @@ li {
   display: inline;
 }
 
+.left-nav {
+  display: block;
+  float: left;
+  padding: 5px;
+  margin: 0 5px;
+}
+
+.right-nav {
+  display: block;
+  float: right;
+}
+
 li a {
   text-decoration: none;
   color: #222;
   font-family: arial, sans-serif;
   font-size: 14px;
+  padding: 5px;
+  text-align: center;
 }
 
 a:hover {
