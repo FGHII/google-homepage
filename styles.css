@@ -53,22 +53,45 @@ li a {
 a:hover {
   text-decoration: underline;
 }
-form {
-  text-align: center;
-}
 .search-bar {
-  width: 560px;
-  height: 39px;
+  font-size: 16px;
+  flex: 1;
+  margin-left: 10px;
+  border: 0;
+}
+.search-container input:focus {
+  outline-width: 0;
+}
+.search-container:hover {
+  box-shadow: 0 1px 6px rgba(32,33,36,.28);
+  border-color:rgba(223,225,229,0);
+}
+.search-container {
+  display: flex;
+  align-items: center;
+  width: 550px;
+  height: 29px;
   margin-top: 50px;
   margin-bottom: 50px;
   border-radius: 24px;
   background: #fff;
   border: 1px solid #dfe1e5;
   box-shadow: none;
-  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
 }
+
+.search-container i {
+  color: #dfe1e5;
+}
+
 .submit-container {
-  position: relative;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
 }
 .submit-button {
   background-color: #f8f9fa;
